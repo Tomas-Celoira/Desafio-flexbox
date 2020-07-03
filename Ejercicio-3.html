@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            background-color: blueviolet;
+            align-items: center;       
+        }
+
+        .lista{
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 10%;
+        }
+
+       li{
+           display: inline;
+           margin: 0px 20px;
+           font-family: monospace;
+           font-size: 20px;
+       }
+
+       img{
+        width: 4%;
+        margin-left: 5%;
+       }
+       
+    </style>
+</head>
+<body>
+    <nav class="container">
+       <img src="img/icono.png" alt="">
+        <ul class="lista">
+            <li>Inicio</li>
+            <li>Entrevistas</li>
+            <li>Musica</li>
+            <li>Tendencias</li>
+        </ul>
+    </nav>
+</body>
+</html>

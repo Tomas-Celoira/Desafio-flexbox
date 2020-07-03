@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            justify-content: center;
+
+        }
+
+        .filas{
+            display: flex;
+            flex-direction: row;
+        }
+        img{
+            margin: 2%;
+        }
+        .arriba{
+            justify-content: flex-start;
+            height: 100%;
+        }
+        .container{  
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .horizontal{
+            box-sizing: border-box;
+            width: 82%;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <article class="filas">
+            <img src="img/1.png" alt="">
+            <img src="img/2.png" alt="">
+            <img src="img/3.png" alt="">
+            <img src="img/4.png" alt="">
+        </article>
+        <article class="container">
+            <img class="horizontal" src="img/5.png" alt="">
+        </article>
+        <article class="filas">
+            <img class="arriba" src="img/6.png" alt="">
+            <img src="img/7.png" alt="">
+            <img class="arriba" src="img/8.png" alt="">
+            <img src="img/7.png" alt=""> 
+        </article>
+    </section>
+</body>
+</html>
